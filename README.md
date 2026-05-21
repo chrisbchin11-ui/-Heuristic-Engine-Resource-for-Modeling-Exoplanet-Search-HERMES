@@ -51,6 +51,6 @@ AI-generated analysis of the planetary system.
 ## Author
 Christopher Chin
 UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)
-Co-author, The Astronomical Journal (Volume 170, Issue 6, id.343, 56 pp.)
-GitHub:(https://github.com/chrisbchin11-ui)
-Email: chrisbchin11@gmail.com
+| Co-author, The Astronomical Journal (Volume 170, Issue 6, id.343, 56 pp.)
+| GitHub:(https://github.com/chrisbchin11-ui)
+| Email: chrisbchin11@gmail.com

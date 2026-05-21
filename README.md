@@ -3,37 +3,53 @@
 
 ## Overview
 HERMES is a local agentic AI research assistant designed to automate 
-multi-step astronomical research tasks. Built using Ollama and LangChain, 
-it autonomously breaks down complex research queries and works through 
-them step by step.
+multi-step astronomical research tasks. It combines real-time data 
+retrieval from NASA's Exoplanet Archive with local AI analysis to 
+provide structured insights on confirmed exoplanetary systems.
 
 ## Motivation
 Inspired by my work as an undergraduate researcher on the SPORES-HWO 
 project — a NASA-funded initiative analyzing radial velocity data for 
-120 exoplanet imaging targets — I built HERMES to explore how agentic 
+120 exoplanet imaging targets published in The Astronomical Journal 
+(Volume 170, Issue 6, 2025) — I built HERMES to explore how agentic 
 AI can automate astronomical research workflows.
 
 ## Tech Stack
 - Python
 - Ollama (local LLM inference)
 - LangChain
-- Llama 3.2 (1B parameter model)
+- Meta's Llama 3.2 (1B parameter model)
+- NASA Exoplanet Archive TAP API
 
 ## Features
-- Autonomous multi-step task completion
-- Local inference — runs completely free with no API costs
-- Customizable research prompts
-- Extensible tool architecture
+- Real-time queries to NASA's Exoplanet Archive Planetary Systems database
+- Retrieves confirmed planet data including orbital periods, radius, mass, and discovery method
+- AI-powered analysis of planetary systems using local LLM inference
+- Clean structured data output
+- Runs completely free with no API costs
+- Works on any star in NASA's database
 
 ## Current Limitations
-- Relies on training data, not real time database access
-- Small model size limits reasoning complexity
+- Relies on Llama 3.2 1B parameter model which occasionally misinterprets 
+  units or makes factual errors in analysis
+- A larger model or fact-checking tool would improve accuracy
+- AI analysis draws from training data for context, not real-time literature
 
 ## Next Steps
-- Connect to NASA Exoplanet Archive API
-- Add real time data retrieval tools
-- Expand to analyze radial velocity datasets
+- Upgrade to a more powerful model for more accurate analysis
+- Add multiple tools including web search and literature retrieval
+- Connect to additional NASA databases beyond confirmed planets
+- Add memory so HERMES can compare multiple star systems
+- Build a simple user interface for easier interaction
+
+## Example Output
+Running HERMES on tau Ceti — a star analyzed in the SPORES-HWO paper —
+returns real confirmed planet data from NASA's database along with 
+AI-generated analysis of the planetary system.
 
 ## Author
 Christopher Chin
 UC Berkeley | Applied Mathematics
+Co-author, The Astronomical Journal (Volume 170, Issue 6, 2025)
+GitHub: [your github here]
+Email: chrisbchin11@gmail.com

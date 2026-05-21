@@ -43,7 +43,7 @@ AI can automate astronomical research workflows.
 - Build a simple user interface for easier interaction
 
 ## Example Output
-Running HERMES on tau Ceti — a star analyzed in the SPORES-HWO paper —
+Running HERMES on tau Ceti (HD 10700) — a star analyzed in the SPORES-HWO paper —
 returns real confirmed planet data from NASA's database along with 
 AI-generated analysis of the planetary system.
 

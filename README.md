@@ -8,10 +8,10 @@ retrieval from NASA's Exoplanet Archive with local AI analysis to
 provide structured insights on confirmed exoplanetary systems.
 
 ## Motivation
-Inspired by my work as an undergraduate researcher on the SPORES-HWO 
-project (under Dr. Courtney Dressing and Ph.d candidate Caleb Harada) — a NASA-funded initiative analyzing radial velocity data for 
+My time as an undergraduate researcher on the SPORES-HWO 
+research team (under Dr. Courtney Dressing and Ph.d candidate Caleb Harada) — a NASA-funded initiative analyzing radial velocity data for 
 120 exoplanet imaging targets published in The Astronomical Journal 
-(Volume 170, Issue 6, id.343, 56 pp.) — I built HERMES to explore how agentic 
+(Volume 170, Issue 6, id.343, 56 pp.) — inspired this project. I built HERMES to explore how agentic 
 AI can automate astronomical research workflows.
 
 ## Tech Stack

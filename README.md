@@ -9,9 +9,9 @@ provide structured insights on confirmed exoplanetary systems.
 
 ## Motivation
 Inspired by my work as an undergraduate researcher on the SPORES-HWO 
-project — a NASA-funded initiative analyzing radial velocity data for 
+project (under Dr. Courtney Dressing and Ph.d candidate Caleb Harada) — a NASA-funded initiative analyzing radial velocity data for 
 120 exoplanet imaging targets published in The Astronomical Journal 
-(Volume 170, Issue 6, 2025) — I built HERMES to explore how agentic 
+(Volume 170, Issue 6, id.343, 56 pp.) — I built HERMES to explore how agentic 
 AI can automate astronomical research workflows.
 
 ## Tech Stack
@@ -49,7 +49,7 @@ AI-generated analysis of the planetary system.
 
 ## Author
 Christopher Chin
-UC Berkeley | Applied Mathematics
-Co-author, The Astronomical Journal (Volume 170, Issue 6, 2025)
-GitHub: [your github here]
+UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)
+Co-author, The Astronomical Journal (Volume 170, Issue 6, id.343, 56 pp.)
+GitHub:(https://github.com/chrisbchin11-ui)
 Email: chrisbchin11@gmail.com

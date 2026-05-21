@@ -28,6 +28,7 @@ AI can automate astronomical research workflows.
 - Clean structured data output
 - Runs completely free with no API costs
 - Works on any star in NASA's database
+- Habitable zone classification using Kepler's Third Law to determine if confirmed planets fall within their star's habitable zone
 
 ## Current Limitations
 - Relies on Llama 3.2 1B parameter model which occasionally misinterprets 

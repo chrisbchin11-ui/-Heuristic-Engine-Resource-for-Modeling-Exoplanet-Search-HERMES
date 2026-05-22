@@ -61,6 +61,7 @@ SPORES-HWO research project.
   by default — stellar mass data would improve precision
 - AI analysis draws from training data for context, not real time 
   literature
+- Habitable zone calculations are optimized for F, G, and K type stars. Ultracool dwarf stars like TRAPPIST-1 (M-type) require more sophisticated luminosity modeling for accurate results
 
 ## Next Steps
 - Upgrade to a more powerful model for more accurate analysis

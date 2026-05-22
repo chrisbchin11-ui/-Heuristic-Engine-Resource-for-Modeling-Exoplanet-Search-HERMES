@@ -51,7 +51,7 @@ Notable findings:
 - tau Cet f: 1.45 AU — IN habitable zone ✓
 - HD 192310 c: 1.27 AU — IN habitable zone ✓
 
-HD 192310 is a star personally analyzed by the author during the 
+PS: I analyzed data for HD 192310, Tau Ceti, and the Alpha Centauri system during the 
 SPORES-HWO research project.
 
 ## Current Limitations
@@ -80,8 +80,8 @@ SPORES-HWO research project.
   1. Find information about exoplanets
   2. Summarize key points
   3. Suggest next steps for research
-- AI generates responses purely from training data — no real data sources
-- No tools, no APIs, no external data — just prompt and response
+- AI generates responses purely from training data; no real data sources
+- No tools, no APIs, no external data, just prompt and response
 - Establishes the foundation that all subsequent HERMES versions build upon
 - Runs completely free with no API costs
 

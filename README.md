@@ -94,6 +94,9 @@ SPORES-HWO research project.
 - Added interactive command line interface with menu
 - User can now type any star name and get results instantly
 
+### nasa_test_data.py — Calling Data from NASA Exoplanet API
+- Tested to see if data from the API could be extracted
+
 ## Author
 Christopher Chin
 UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)

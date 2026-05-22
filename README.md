@@ -72,6 +72,18 @@ SPORES-HWO research project.
 
 ## Changelog
 
+### agent.py — Base Agent (Starting Point)
+- First working AI agent built using LangChain and Ollama
+- Connects to Meta's Llama 3.2 1B model running locally through Ollama
+- Sends a multi-step research prompt asking the AI to:
+  1. Find information about exoplanets
+  2. Summarize key points
+  3. Suggest next steps for research
+- AI generates responses purely from training data — no real data sources
+- No tools, no APIs, no external data — just prompt and response
+- Establishes the foundation that all subsequent HERMES versions build upon
+- Runs completely free with no API costs
+
 ### hermes.py — Base Model
 - Connected to NASA Exoplanet Archive TAP API
 - Pulls confirmed planet data including name, orbital period, discovery method, radius and mass
@@ -97,6 +109,7 @@ SPORES-HWO research project.
 ### nasa_test_data.py — Calling Data from NASA Exoplanet API
 - Tested to see if confirmed exoplanet data from the API could be extracted 
 - Received variables such as Planet Name, Orbital Period, Discovery Method, Radius and Mass
+
 ## Author
 Christopher Chin
 UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)

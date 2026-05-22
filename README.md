@@ -95,8 +95,8 @@ SPORES-HWO research project.
 - User can now type any star name and get results instantly
 
 ### nasa_test_data.py — Calling Data from NASA Exoplanet API
-- Tested to see if data from the API could be extracted
-
+- Tested to see if confirmed exoplanet data from the API could be extracted 
+- Received variables such as Planet Name, Orbital Period, Discovery Method, Radius and Mass
 ## Author
 Christopher Chin
 UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)

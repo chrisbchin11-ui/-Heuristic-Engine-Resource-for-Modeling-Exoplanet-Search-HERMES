@@ -70,6 +70,30 @@ SPORES-HWO research project.
 - Add memory so HERMES can track and compare queries across sessions
 - Build a simple command line interface for interactive use
 
+## Changelog
+
+### hermes.py — Base Model
+- Connected to NASA Exoplanet Archive TAP API
+- Pulls confirmed planet data including name, orbital period, discovery method, radius and mass
+- Basic AI analysis using Llama 3.2 via Ollama
+
+### hermes2.py — Habitable Zone Update
+- Added habitable zone calculator using Kepler's Third Law
+- Classifies each planet as too close, in habitable zone, or too far
+- Added None handling for missing orbital period data
+
+### hermes3.py — Multi-Star Comparison
+- Added compare_systems function to analyze multiple stars simultaneously
+- Added deduplication to remove duplicate planet measurements
+- Simplified AI prompt for cleaner more accurate analysis
+- Added graceful error handling for network timeouts
+
+### hermes4.py — Full Interactive Tool
+- Added stellar mass lookup from NASA database for more accurate HZ calculations
+- Updated habitable zone calculator to use real stellar mass instead of assuming solar mass
+- Added interactive command line interface with menu
+- User can now type any star name and get results instantly
+
 ## Author
 Christopher Chin
 UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)

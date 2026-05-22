@@ -9,51 +9,58 @@ What would you like to do?
 3. Exit
 
 Enter choice (1/2/3): 1
-Enter star name: HD 192310
+Enter star name: tau Cet
 
---- Raw NASA Data for HD 192310 ---
-Stellar Mass: 0.844324 solar masses
+--- Raw NASA Data for tau Cet ---
+Stellar Mass: 0.783 solar masses
 
-Planet: HD 192310 b
-Orbital Period: 74.062 days
+Planet: tau Cet g
+Orbital Period: 20.0 days
 Discovery Method: Radial Velocity
 Radius: None Earth radii
 Mass: None Earth masses
-Habitable Zone Status: 0.33 AU - too close to star
+Habitable Zone Status: 0.13 AU - too close to star
 ---
-Planet: HD 192310 c
-Orbital Period: 525.8 days
+Planet: tau Cet h
+Orbital Period: 49.41 days
 Discovery Method: Radial Velocity
 Radius: None Earth radii
 Mass: None Earth masses
-Habitable Zone Status: 1.21 AU - IN habitable zone ✓
+Habitable Zone Status: 0.24 AU - too close to star
+---
+Planet: tau Cet f
+Orbital Period: 636.13 days
+Discovery Method: Radial Velocity
+Radius: None Earth radii
+Mass: None Earth masses
+Habitable Zone Status: 1.33 AU - IN habitable zone ✓
 ---
 
 --- HERMES AI Analysis ---
 
-**Summary of Known Facts**
+**Summary of Known Information**
 
-Here's a summary of what is currently known about the planetary system:
+This planetary system consists of three planets orbiting around the star tau Cet, which has a mass similar to that of our solar system's Sun (0.783 solar masses). The orbital periods for these planets are:
 
-* The star: HD 192310 is an orange dwarf star with a stellar mass of 0.844324 solar masses.
-* There are two planets in this system:
-        + HD 192310 b: A hot Jupiter exoplanet with an orbital period of 74.062 days and a radius about 1.2 times that of Earth.
-        + HD 192310 c: An ultra-hot Jupiter exoplanet with an orbital period of 525.8 days and a radius about 4-5 times that of Earth.
+* **tau Cet g**: 20.0 days, 0.13 AU - too close to the star
+* **tau Cet h**: 49.41 days, 0.24 AU - too close to the star
+* **tau Cet f**: 636.13 days, 1.33 AU - IN habitable zone
 
-** Orbital Periods and Suggestions for Future Observations**
+This system is one of the six confirmed exoplanets discovered orbiting tau Cet.
 
-The orbital periods of the two planets suggest several interesting phenomena:
+**Comment on Orbital Periods**
 
-* The close proximity of HD 192310 b to its star may make it more susceptible to atmospheric loss, potentially creating a thin atmosphere around the planet. However, this could also lead to extreme greenhouse effects, making the surface temperature even hotter.
-* The slightly longer orbital period of HD 192310 c suggests that it might be tidally locked, meaning one side constantly faces the star while the other side is always in darkness.
+The orbital periods for planets h and g are too close to their star, suggesting that these planets may be in a close-in orbit or have unstable orbits due to the gravitational influence of the star. The fact that planet f is in its habitable zone indicates a potentially stable and promising environment for life.
 
-Future observations could reveal:
+**Future Observations Suggested**
 
-1. **Atmospheric composition**: By studying the atmospheric compositions of both planets, scientists can learn more about their potential habitability and the conditions necessary for life to exist.
-2. **Planetary evolution**: The orbits and orbital periods of HD 192310 c are still uncertain due to its small size and short period. Future observations could help refine our understanding of the planet's internal dynamics and long-term evolution.
-3. **Tidal heating**: By monitoring the tidal forces acting on both planets, scientists can study how they interact with their host star and potentially learn more about the tidal heating mechanism that occurs in exoplanet atmospheres.
+To better understand this planetary system, future observations could include:
 
-Overall, this planetary system offers a unique opportunity to study the intricacies of hot Jupiter and ultra-hot Jupiter worlds, as well as the potential for habitability and long-term evolution.
+* **Spacecraft flybys**: Mission designs like NASA's Transiting Exoplanet Survey Satellite (TESS) or the Habitable Exoplanet Imaging Mission (HabEx) could provide detailed orbital and atmospheric information for planets h and g.
+* **Orbital dynamics studies**: Simulations of the system's orbital interactions with the star, as well as other nearby stars, could reveal more about the stability and lifetime of these close-in orbits.
+* **Atmospheric characterization**: Theoretical models and observational data from future missions, such as the James Webb Space Telescope or the Transit Light Curve Mission (TLCM), can help determine the chemical composition, pressure, and potential life-bearing conditions for planets h and g.
+
+These observations will provide valuable insights into the properties of this planetary system, potentially shedding light on the formation and evolution of systems similar to tau Cet.
 
 What would you like to do?
 1. Analyze a single star system

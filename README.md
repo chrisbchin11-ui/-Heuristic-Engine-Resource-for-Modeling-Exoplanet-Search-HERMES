@@ -21,9 +21,9 @@ data autonomously.
 
 ## Tech Stack
 - Python
-- Ollama (local LLM inference)
 - LangChain
-- Meta's Llama 3.2 (1B parameter model)
+- Groq API
+- Meta's Llama 3.3 (70B parameter model)
 - NASA Exoplanet Archive TAP API
 
 ## Features

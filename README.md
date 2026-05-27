@@ -28,17 +28,20 @@ data autonomously.
 
 ## Features
 - Real-time queries to NASA's Exoplanet Archive Planetary Systems database
-- Retrieves confirmed planet data including orbital periods, radius, mass, 
-  and discovery method
-- Habitable zone classification using Kepler's Third Law to determine if 
-  confirmed planets fall within their star's habitable zone
-- Multi-star comparison — analyze and compare multiple planetary systems 
-  simultaneously
+- Retrieves confirmed planet data including orbital periods, radius, mass and discovery method for any star in the archive
+- Habitable zone classification using Kepler's Third Law and real NASA stellar luminosity data to accurately calculate each planet's orbital distance and classify whether it falls within its star's habitable zone
+- Multi-star comparison — analyze and compare multiple planetary systems simultaneously
 - Automatic deduplication of multiple measurements for the same planet
-- AI-powered analysis and commentary using local LLM inference
-- Graceful error handling for network timeouts and missing data
-- Runs completely free with no API costs
-- Works on any star in NASA's confirmed planets database
+- Deep AI-powered scientific analysis using Meta's Llama 3.3 70B via Groq API including:
+  - Star type classification and solar comparison
+  - Per-planet environmental assessment based on orbital characteristics
+  - Habitability evaluation including liquid water potential
+  - Comparative context against our Solar System
+  - Specific future observation and mission recommendations
+- Error handling for network timeouts and missing data
+- Local Ollama fallback (Llama 3.2 1B) if Groq API is unavailable (no API key found)
+- Works on any confirmed planet hosting star in NASA's database
+- Runs completely free using Groq's free API tier
 
 ## Example Output
 Running HERMES on tau Ceti, HD 192310, and 55 Cancri returns:
@@ -55,17 +58,14 @@ PS: I analyzed data for HD 192310, Tau Ceti, and the Alpha Centauri system durin
 SPORES-HWO research project.
 
 ## Current Limitations
-- Llama 3.2 1B parameter model occasionally makes factual errors 
-  in analysis — a larger model would improve accuracy
-- Habitable zone calculation assumes solar mass stellar properties 
-  by default — stellar mass data would improve precision
-- AI analysis draws from training data for context, not real time 
-  literature
-- Habitable zone calculations are optimized for F, G, and K type stars. Ultracool dwarf stars like TRAPPIST-1 (M-type) require more sophisticated luminosity modeling for accurate results
+- **Real Time Literature** — model relies on training data cutoff and cannot access papers or discoveries published after its training date
+- **Habitable Zone Accuracy** — calculations are optimized for F, G, and K type main sequence stars; M-type stars, binary systems, white dwarfs, and supergiants produce less accurate results
+- **Missing Stellar Data** — some stars in NASA's archive have null values for luminosity, mass, or temperature; HERMES defaults to solar values when data is missing which reduces accuracy
+- **No Atmospheric Analysis** — HERMES assesses orbital habitability but cannot evaluate atmospheric composition, a critical factor for true habitability determination
+- **Confirmed Planets Only** — queries confirmed planets only; candidate signals and unconfirmed detections are not included
+- **Groq API Dependency** — full analysis quality requires active internet connection and Groq API access; falls back to local Llama 3.2 1B without it
 
 ## Next Steps
-- Upgrade to a more powerful model for more accurate analysis
-- Add stellar mass data to improve habitable zone calculations
 - Connect to additional NASA databases beyond confirmed planets
 - Add web search for recent literature on specific star systems
 - Add memory so HERMES can track and compare queries across sessions

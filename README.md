@@ -97,11 +97,17 @@ SPORES-HWO research project.
 - Simplified AI prompt for cleaner more accurate analysis
 - Added graceful error handling for network timeouts
 
-### hermes4.py — Full Interactive Tool
+### hermes4.py — Full Interactive Tool (Llama 3.2 1B Model)
 - Added stellar mass lookup from NASA database for more accurate HZ calculations
 - Updated habitable zone calculator to use real stellar mass instead of assuming solar mass
 - Added interactive command line interface with menu
 - User can now type any star name and get results instantly
+
+### hermes5.py - Stellar Luminosity Update
+- Added stellar luminosity search query for more accurate habitable zone calculations
+
+### hermes6.py - Full Interactive Tool (Llama 3.3 70B Model via Groq API)
+- Interchanged Llama 3.2 1B model for Llama 3.3 70B model for more accurate scientific analysis
 
 ### nasa_test_data.py — Calling Data from NASA Exoplanet API
 - Tested to see if confirmed exoplanet data from the API could be extracted 

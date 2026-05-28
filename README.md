@@ -12,7 +12,7 @@ My experience as an undergraduate researcher on the SPORES-HWO
 project (led by Professor Courntey Dressing and Ph.d candidate Caleb Harada at Berkeley)
 — a NASA-funded initiative analyzing radial velocity data for 
 120 exoplanet imaging targets published in The Astronomical Journal 
-(Volume 170, Issue 6, 2025) — inspired me to build HERMES to explore how agentic 
+(Vol. 170, Issue 6, id.343, 56 pp.) — inspired me to build HERMES to explore how agentic 
 AI can automate astronomical research workflows.
 
 ## Tech Stack

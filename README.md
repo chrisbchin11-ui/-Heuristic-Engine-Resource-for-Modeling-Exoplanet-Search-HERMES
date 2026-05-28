@@ -15,10 +15,6 @@ project (led by Professor Courntey Dressing and Ph.d candidate Caleb Harada at B
 (Volume 170, Issue 6, 2025) — inspired me to build HERMES to explore how agentic 
 AI can automate astronomical research workflows.
 
-Named after Hermes, the Greek messenger god who traveled between worlds,
-HERMES travels between NASA databases to retrieve and analyze exoplanetary
-data autonomously.
-
 ## Tech Stack
 - Python
 - LangChain

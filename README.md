@@ -109,6 +109,9 @@ SPORES-HWO research project.
 ### hermes6.py - Full Interactive Tool (Llama 3.3 70B Model via Groq API)
 - Interchanged Llama 3.2 1B model for Llama 3.3 70B model for more accurate scientific analysis
 
+### hermes7.py - Querying TESS Objects of Interest (TOI) Database Capability
+- Added TOI database for user to query unconfirmed exoplanet signals and Llama 3.3 70B model analysis
+
 ### nasa_test_data.py — Calling Data from NASA Exoplanet API
 - Tested to see if confirmed exoplanet data from the API could be extracted 
 - Received variables such as Planet Name, Orbital Period, Discovery Method, Radius and Mass

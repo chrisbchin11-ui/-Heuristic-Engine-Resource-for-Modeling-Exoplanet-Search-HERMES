@@ -123,6 +123,7 @@ SPORES-HWO research project.
 ## Author
 Christopher Chin
 UC Berkeley Class of 2028 | Applied Mathematics (cluster in Numerical Analysis)
+| Agentic AI Research Assistant @ Lawrence Berkeley National Laboratory
 | Co-author, The Astronomical Journal (Volume 170, Issue 6, id.343, 56 pp.)
 | GitHub:(https://github.com/chrisbchin11-ui)
 | Email: chrisbchin11@gmail.com

@@ -24,6 +24,8 @@ AI can automate astronomical research workflows.
 - ExoFOP-TESS
 - Requests Library
 - Python-Dotenv
+- Lightkurve
+- Matplotlib
 
 ## Features
 - Real-time queries to NASA's Exoplanet Archive Planetary Systems database and TESS Objects of Interest (TOI) database 

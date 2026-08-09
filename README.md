@@ -26,8 +26,9 @@ AI can automate astronomical research workflows.
 - Python-Dotenv
 
 ## Features
-- Real-time queries to NASA's Exoplanet Archive Planetary Systems database
+- Real-time queries to NASA's Exoplanet Archive Planetary Systems database and TESS Objects of Interest (TOI) database 
 - Retrieves confirmed planet data including orbital periods, radius, mass and discovery method for any star in the archive
+- Retrieves unconfirmed exoplanet signal data from TOI database
 - Habitable zone classification using Kepler's Third Law and real NASA stellar luminosity data to accurately calculate each planet's orbital distance and classify whether it falls within its star's habitable zone
 - Multi-star comparison — analyze and compare multiple planetary systems simultaneously
 - Automatic deduplication of multiple measurements for the same planet

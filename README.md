@@ -21,6 +21,9 @@ AI can automate astronomical research workflows.
 - Groq API
 - Meta's Llama 3.3 (70B parameter model)
 - NASA Exoplanet Archive TAP API
+- ExoFOP-TESS
+- Requests Library
+- Python-Dotenv
 
 ## Features
 - Real-time queries to NASA's Exoplanet Archive Planetary Systems database

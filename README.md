@@ -116,6 +116,11 @@ SPORES-HWO research project.
 ### hermes7.py - Querying TESS Objects of Interest (TOI) Database Capability
 - Added TOI database for user to query unconfirmed exoplanet signals and Llama 3.3 70B model analysis
 
+### hermes8.py - TESS Light Curve Plotting and Binning Capability
+- Integrated lightkurve and matplotlib to fetch, stitch, and render photometric light curve data from NASA's MAST archive
+- Added an automated TAP query function to pull orbital periods and transit midpoints directly from the NASA Exoplanet Archive TOI database
+- Implemented phase-folding and 15-minute data binning (.fold() and .bin()) to extract faint exoplanet transits from background noise.  
+
 ### nasa_test_data.py — Calling Data from NASA Exoplanet API
 - Tested to see if confirmed exoplanet data from the API could be extracted 
 - Received variables such as Planet Name, Orbital Period, Discovery Method, Radius and Mass

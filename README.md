@@ -53,8 +53,10 @@ Data Visualization
 - Multi-star comparison — analyze and compare multiple planetary systems simultaneously
 - Automatic deduplication of multiple measurements for the same planet
 - Physics-Grounded AI Analysis: Deep scientific analysis using Meta's Llama 3.3 70B via Groq API, dynamically injecting live-calculated telemetry and physical parameters directly into the LLM context window to drive reliable, evidence-based evaluations including: star type classification and solar comparison, per-planet environmental assessment based on orbital characteristics, habitability evaluation including liquid water potential, comparative context against our Solar System, specific future observation and mission recommendations
-- Error handling for network timeouts and missing dataLocal Ollama fallback (Llama 3.2 1B) if Groq API is unavailable (no API key found)
-- Works on any confirmed planet hosting star or TIC candidate in NASA's databaseRuns completely free using Groq's free API tier and Streamlit Community Cloud hosting
+- Error handling for network timeouts and missing data
+- Local Ollama fallback (Llama 3.2 1B) if Groq API is unavailable (no API key found)
+- Works on any confirmed planet hosting star or TIC candidate in NASA's database
+- Runs completely free using Groq's free API tier
 
 ## Example Output
 Running HERMES on tau Ceti, HD 192310, and 55 Cancri returns:

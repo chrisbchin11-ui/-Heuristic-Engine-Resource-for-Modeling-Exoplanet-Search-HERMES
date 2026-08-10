@@ -45,22 +45,16 @@ Data Visualization
 - Meta Llama 3.3 (70B parameter open-source foundation model)
 
 ## Features
-- Real-time queries to NASA's Exoplanet Archive Planetary Systems database and TESS Objects of Interest (TOI) database 
-- Retrieves confirmed planet data including orbital periods, radius, mass and discovery method for any star in the archive
-- Retrieves unconfirmed exoplanet signal data from TOI database
+- Real-time queries to NASA's Exoplanet Archive Planetary Systems database and TESS Objects of Interest (TOI) database
+- Retrieves confirmed planet data including orbital periods, radius, mass, and discovery method for any star in the archiveRetrieves unconfirmed exoplanet signal data from the TOI database
+- Advanced Photometric Telemetry Pipeline: Fetches, stitches, and cleans multi-sector light curve data from the NASA MAST archive using lightkurve
+- Mathematical Transit Modeling: Integrates batman and SciPy (L-BFGS-B bounded optimization) to model transit physics and extract precise live-calculated parameters ($R_p/R_*$, orbital inclination) in real time
 - Habitable zone classification using Kepler's Third Law and real NASA stellar luminosity data to accurately calculate each planet's orbital distance and classify whether it falls within its star's habitable zone
 - Multi-star comparison — analyze and compare multiple planetary systems simultaneously
 - Automatic deduplication of multiple measurements for the same planet
-- Deep AI-powered scientific analysis using Meta's Llama 3.3 70B via Groq API including:
-  - Star type classification and solar comparison
-  - Per-planet environmental assessment based on orbital characteristics
-  - Habitability evaluation including liquid water potential
-  - Comparative context against our Solar System
-  - Specific future observation and mission recommendations
-- Error handling for network timeouts and missing data
-- Local Ollama fallback (Llama 3.2 1B) if Groq API is unavailable (no API key found)
-- Works on any confirmed planet hosting star in NASA's database
-- Runs completely free using Groq's free API tier
+- Physics-Grounded AI Analysis: Deep scientific analysis using Meta's Llama 3.3 70B via Groq API, dynamically injecting live-calculated telemetry and physical parameters directly into the LLM context window to drive reliable, evidence-based evaluations including: star type classification and solar comparison, per-planet environmental assessment based on orbital characteristics, habitability evaluation including liquid water potential, comparative context against our Solar System, specific future observation and mission recommendations
+- Error handling for network timeouts and missing dataLocal Ollama fallback (Llama 3.2 1B) if Groq API is unavailable (no API key found)
+- Works on any confirmed planet hosting star or TIC candidate in NASA's databaseRuns completely free using Groq's free API tier and Streamlit Community Cloud hosting
 
 ## Example Output
 Running HERMES on tau Ceti, HD 192310, and 55 Cancri returns:

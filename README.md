@@ -21,16 +21,28 @@ project (led by Professor Courntey Dressing and Ph.d candidate Caleb Harada at B
 AI can automate astronomical research workflows.
 
 ## Tech Stack
+
+Core Application & Orchestration
 - Python
-- LangChain
-- Groq API
-- Meta's Llama 3.3 (70B parameter model)
-- NASA Exoplanet Archive TAP API
-- ExoFOP-TESS
-- Requests Library
-- Python-Dotenv
-- Lightkurve
-- Matplotlib
+- Requests (HTTP library for API routing)
+- Python-Dotenv (Environment variable management)
+
+Astrophysics Data & Telemetry Pipeline
+- Lightkurve (Photometric processing and NASA MAST Archive integration)
+- NASA Exoplanet Archive TAP API (Table Access Protocol for system parameter retrieval)
+- ExoFOP-TESS (Exoplanet Follow-up Observing Program database)
+
+Physics Modeling & Mathematical Optimization
+- BATMAN (Bad-Ass Transit Model cAlculatioN for generating theoretical light curves)
+- SciPy (scipy.optimize utilizing L-BFGS-B bounded algorithms for parameter fitting)
+- NumPy (High-performance array manipulation)
+
+Data Visualization
+- Matplotlib (Rendering phase-folded light curves and model overlays)
+- Agentic AI & LLM Integration
+- LangChain (Prompt orchestration and agentic workflow structuring)
+- Groq API (Ultra-low latency inference engine)
+- Meta Llama 3.3 (70B parameter open-source foundation model)
 
 ## Features
 - Real-time queries to NASA's Exoplanet Archive Planetary Systems database and TESS Objects of Interest (TOI) database 

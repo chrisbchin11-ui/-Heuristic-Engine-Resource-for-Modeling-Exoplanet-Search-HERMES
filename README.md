@@ -121,7 +121,13 @@ SPORES-HWO research project.
 ### hermes8.py - TESS Light Curve Plotting and Binning Capability
 - Integrated lightkurve and matplotlib to fetch, stitch, and render photometric light curve data from NASA's MAST archive
 - Added an automated TAP query function to pull orbital periods and transit midpoints directly from the NASA Exoplanet Archive TOI database
-- Implemented phase-folding and 15-minute data binning (.fold() and .bin()) to extract faint exoplanet transits from background noise.  
+- Implemented phase-folding and 15-minute data binning (.fold() and .bin()) to extract faint exoplanet transits from background noise.
+
+### hermes9.py - Physical Transit Modeling and Agentic Integration Capability
+- Integrated batman-package and scipy.optimize to generate mathematical exoplanet transit models and extract precise physical parameters
+- Added L-BFGS-B optimization to dynamically calculate the planet-to-star radius ratio ($R_p/R_*$) and orbital inclination
+- Updated the visualization function to overlay the theoretical best-fit transit model directly onto the binned TESS light curve data
+- Wired the optimized mathematical outputs into the Groq API pipeline
 
 ### nasa_test_data.py — Calling Data from NASA Exoplanet API
 - Tested to see if confirmed exoplanet data from the API could be extracted 

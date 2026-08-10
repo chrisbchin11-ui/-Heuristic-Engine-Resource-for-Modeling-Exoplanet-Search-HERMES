@@ -2,10 +2,15 @@
 ### Heuristic Engine Resource for Modeling Exoplanet Search
 
 ## Overview
-HERMES is a local agentic AI research assistant designed to automate 
-multi-step astronomical research tasks. It combines real-time data 
+HERMES is an agentic AI pipeline 
+designed to automate the validation and analysis of unconfirmed exoplanet candidates. Moving beyond 
+static catalog queries, the system fetches raw multi-sector TESS photometry, 
+applies mathematical transit modeling to extract precise planetary parameters (like $R_p/R_*$ and orbital inclination), 
+and injects this live-calculated telemetry directly into a large language model. 
+By grounding its reasoning in dynamically generated physics, HERMES provides robust, evidence-based AI analysis on false-positive probabilities, habitability, and observational follow-up strategies.
+HERMES also automates multi-step astronomical research tasks by combining real-time data 
 retrieval from NASA's Exoplanet Archive with local AI analysis to 
-provide structured insights on confirmed exoplanetary systems.
+provide structured insights on confirmed exoplanetary systems. 
 
 ## Motivation
 My experience as an undergraduate researcher on the SPORES-HWO 

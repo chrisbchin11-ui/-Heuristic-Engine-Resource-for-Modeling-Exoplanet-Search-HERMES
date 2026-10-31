@@ -46,7 +46,8 @@ Data Visualization
 
 ## Features
 - Real-time queries to NASA's Exoplanet Archive Planetary Systems database and TESS Objects of Interest (TOI) database
-- Retrieves confirmed planet data including orbital periods, radius, mass, and discovery method for any star in the archiveRetrieves unconfirmed exoplanet signal data from the TOI database
+- Retrieves confirmed planet data including orbital periods, radius, mass, and discovery method for any star in the archive
+- Retrieves unconfirmed exoplanet signal data from the TOI database
 - Advanced Photometric Telemetry Pipeline: Fetches, stitches, and cleans multi-sector light curve data from the NASA MAST archive using lightkurve
 - Mathematical Transit Modeling: Integrates batman and SciPy (L-BFGS-B bounded optimization) to model transit physics and extract precise live-calculated parameters ($R_p/R_*$, orbital inclination) in real time
 - Habitable zone classification using Kepler's Third Law and real NASA stellar luminosity data to accurately calculate each planet's orbital distance and classify whether it falls within its star's habitable zone
